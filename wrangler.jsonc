@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "suts-jurisdiction",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-06-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "migrations": [
+    { "tag": "v1", "new_sqlite_classes": ["SutsMCP"] }
+  ],
+  "durable_objects": {
+    "bindings": [
+      { "name": "MCP_OBJECT", "class_name": "SutsMCP" }
+    ]
+  },
+  "kv_namespaces": [
+    { "binding": "OAUTH_KV", "id": "a0650b36be51481380d0b59f35cb8763" }
+  ],
+  "observability": { "enabled": true }
+}

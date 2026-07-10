@@ -1,0 +1,42 @@
+{
+  "address": "107 Rockledge Rd, Vail, CO 81657, USA",
+  "jurisdictionCode": "44-0060",
+  "totalSalesTax": 0.094,
+  "salesTax": [
+    {
+      "jurisdiction": "Colorado",
+      "type": "state",
+      "answer": "",
+      "value": 0.029,
+      "taxType": "Sales"
+    },
+    {
+      "jurisdiction": "Eagle",
+      "type": "county",
+      "answer": "",
+      "value": 0.01,
+      "taxType": "Sales"
+    },
+    {
+      "jurisdiction": "Vail",
+      "type": "city",
+      "answer": "",
+      "value": 0.045,
+      "taxType": "Sales"
+    },
+    {
+      "jurisdiction": "Eagle County MTS",
+      "type": "district",
+      "answer": "",
+      "value": 0.005,
+      "taxType": "Sales"
+    },
+    {
+      "jurisdiction": "Eagle Valley RTA",
+      "type": "district",
+      "answer": "",
+      "value": 0.005,
+      "taxType": "Sales"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "address": "1629 York St, Denver, CO 80206, USA",
+  "jurisdictionCode": "01-0006",
+  "totalSalesTax": 0.0915,
+  "salesTax": [
+    {
+      "jurisdiction": "Colorado",
+      "type": "state",
+      "answer": "",
+      "value": 0.029,
+      "taxType": "Sales"
+    },
+    {
+      "jurisdiction": "Denver, City and County",
+      "type": "city",
+      "answer": "",
+      "value": 0.0515,
+      "taxType": "Sales"
+    },
+    {
+      "jurisdiction": "Colorado RTD",
+      "type": "district",
+      "answer": "",
+      "value": 0.01,
+      "taxType": "Sales"
+    },
+    {
+      "jurisdiction": "Scientific and Cultural Facilities District",
+      "type": "district",
+      "answer": "",
+      "value": 0.001,
+      "taxType": "Sales"
+    }
+  ]
+}

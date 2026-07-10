@@ -1,0 +1,9 @@
+# Secrets — local dev vars (holds SUTS_API_KEY)
+.dev.vars
+.dev.vars.*
+
+# Node / Wrangler
+node_modules/
+.wrangler/
+dist/
+*.log
